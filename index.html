@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TEXT AREA</h1>
+        <div class="alert"></div>
+        <textarea name="area" id="txar" autofocus maxlength="100"></textarea>
+        <div class="progress">
+            <div class="bar"></div>
+        </div>
+        <div class="count"><div class="variable">0</div>&nbsp;/ 100</div>
+        <div class="remaining"><div class="remcount">100</div>&nbsp;Remaininig</div>
+        <div class="wcount">Word Count : <div class="wdcount"></div></div>
+        <button class="reset">Clear</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
